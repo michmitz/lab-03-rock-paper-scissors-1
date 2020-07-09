@@ -1,1 +1,1 @@
-import './Utils.test.js';
+import './throwUtils.test.js';

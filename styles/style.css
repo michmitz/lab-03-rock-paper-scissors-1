@@ -43,11 +43,15 @@ header {
     color: var(--color4);
 }
 
-/* input[type=radio] {
+input[type=radio] {
     display: none;
-} */
+}
 
-img[type=img] {
+/*img[type=img] {
+    border: solid 2px var(--color3);
+}*/
+
+input:checked + img {
     border: solid 2px var(--color3);
 }
 

@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { getRandomThrow } from './get-random-throw.js';
+import { getRandomThrow } from './throwUtils.js';
 
 const playButton = document.querySelector('button');
 const didYouWin = document.querySelector('win-lose');
